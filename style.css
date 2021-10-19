@@ -1,0 +1,115 @@
+*{
+  font-family: 'Saira', sans-serif;
+}
+/*index.html*/
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    top: 0%;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .nav li a:hover  {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .minibar ul li{
+      background: lightcoral;
+      color: white;
+      border: 5px solid black;
+  }
+  .minibar svg{
+      padding-right: 5px;
+  }
+  .minibar li{
+      float: left;
+      overflow: hidden;
+      padding-left: 10px;
+  }
+  .image{
+      float: left;
+      padding:50px
+  }
+  /*<!--index2-->*/
+.ug  li {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+ .pg  li {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+.research  li {
+  display: flex;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+}
+.department ul{
+  background: linear-gradient(to top left,rgb(204, 178, 122),rgb(174, 134, 207));
+  color: rgb(120, 193, 211);
+  border-radius: 12%;
+}
+/*<!--index3-->*/
+.prof{
+  background-image: linear-gradient(to bottom right, pink,lightblue);
+}
+.prof img{
+  width: 35%;
+  height:35%;
+}
+.cse {
+  width: 15%;
+  display: flex;
+  border-radius: 50%;
+}
+/*index4*/
+.content{
+  background: url(background.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.content p ,ul,li{
+  color: white;
+}
+.content h1, h2{
+  color: rgb(169, 212, 233);
+}
+/*index5*/
+.us{
+  background: url(back.jpg);
+}
+/*<!--index6-->*/
+.dept li a{
+border-radius: 25px;
+display: inline-flex;
+background-color: rgba(0,0,0,0.4);
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+text-align: center;
+padding: 10px 10px;
+color: white;
+text-decoration: none;
+}
